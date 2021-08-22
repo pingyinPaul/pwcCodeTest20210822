@@ -19,6 +19,10 @@ class WishStatusSerializer(serializers.ModelSerializer):
         fields = '__all__'
 class UserWishSerializer(serializers.ModelSerializer):
     status = WishStatusSerializer(read_only=True)
+    requestor = serializers.SerializerMethodField()
+    def get_requestor(self, obj):
+        requestor = Requestor.objects.filter(user=obj.requestor).get()
+        return requestor.name
     class Meta:
         model = User_wish
         fields = '__all__'
