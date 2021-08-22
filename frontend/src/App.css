@@ -1,0 +1,89 @@
+.App {
+  /* text-align: center; */
+  background-color: #F5F5F5
+  ;
+}
+.boardDiv{
+  display: flex;
+    justify-content: center;
+}
+.Boardheader{
+height: 50px;
+background-color: white;
+width: 95vw
+}
+.requestHeader{
+  margin-left: 50px;
+  padding-top: 15px;
+}
+.note{
+  width: 80%;
+  float: right;
+}
+.dueDate{
+  float: left;
+}
+.modal-90w{
+  width: 90vw;
+}
+.modalInnerDiv{
+  min-height: 40px
+}
+.Header{
+  height: 50px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  display: flex;
+  vertical-align: middle;
+}
+.listButton{
+  background-color: none;
+}
+.newRequest{
+  padding-top: 15px;
+}
+.HeaderPortal{
+margin-left: 8vw;
+margin-top: 10px;
+vertical-align: middle;
+}
+.HeaderHome{
+  float: right;
+  vertical-align: middle;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

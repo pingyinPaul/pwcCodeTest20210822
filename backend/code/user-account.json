@@ -1,0 +1,22 @@
+[
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "pat",
+            "first_name": "病人",
+            "last_name": "小"
+        },
+        "password": "1234",
+        "email": "123@123.com"
+    },
+    {
+        "model": "auth.user",
+        "fields": {
+            "username": "doc",
+            "first_name": "醫生",
+            "last_name": "大"
+        },
+        "password": "1234",
+        "email": "123@1234.com"
+    }
+]
