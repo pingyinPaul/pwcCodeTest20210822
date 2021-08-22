@@ -37,6 +37,12 @@ python3 manage.py migrate
 
 ```bash
 cd frontend
+
+
 yarn install
 yarn start 
+
+// or 
+npm install
+npm start
 ```
