@@ -1,3 +1,6 @@
+# Introduction 
+This project is for the code test of pwc
+
 # Installation
 
 ## Installtion and starting server for backend
@@ -30,7 +33,8 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-##Installation and starting server for frontend
+## Installation and starting server for frontend
+
 ```bash
 cd frontend
 yarn install
